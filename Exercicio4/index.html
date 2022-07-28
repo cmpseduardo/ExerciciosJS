@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Lista 1 - Exercícios</title>
+    <link rel="stylesheet" href = "style.css">
+</head>
+<body>
+    <main>
+        <div class="container">
+            <label>Digite a placa de um veículo:</label>
+            <input id = "textoPlaca" type="text" placeholder="Placa"/>
+            <button onclick = "validarPlacaDeCarro()">Validar</button>
+            <textarea id="placaRes" cols="30" rows="2"></textarea>
+        </div>
+        <div class="container">
+            <label>Digite CPF:</label>
+            <input type="text" placeholder="CPF"/>
+            <button>Validar</button>
+            <textarea id="cpfRes" cols="30" rows="2"></textarea>
+        </div>
+        <div class="container">
+            <label>Gerador de Telefones</label>
+            <input id = "numberDDD" type = "number" placeholder = "DDD">
+            <input id = "numberQntd" type = "number" placeholder="Quantidade de números que deseja"/>
+            <button onclick = "gerarTelefonesAleatorios()">Criar</button>
+            <textarea id="telefones" cols="30" rows="10"></textarea>
+        </div>
+        <div class="container">
+            <label>Digite quantos CPFs deseja criar:</label>
+            <input id = "recebeQntdCPF" type="number" placeholder="0"/>
+            <button onclick = "gerarCPF()">Criar</button>
+            <textarea id="cpfs" cols="30" rows="10"></textarea>
+        </div>
+    </main>
+</body>
+
+<script src = "script.js"></script>
+
+</html>
