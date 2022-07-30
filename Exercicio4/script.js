@@ -40,7 +40,7 @@ function gerarCPF(){
     quantidadeValue = qntdRecebidaCPF.value
 
         for(let i = 0; i < quantidadeValue; i++){
-        document.getElementById("cpfs").innerHTML += "" + Math.floor(Math.random() * 9) + Math.floor(Math.random() * 9) + Math.floor(Math.random() * 9) + "." + Math.floor(Math.random() * 9) + Math.floor(Math.random() * 9) + Math.floor(Math.random() * 9) + "." + Math.floor(Math.random() * 9) + Math.floor(Math.random() * 9) + Math.floor(Math.random() * 9) + "\n"
+        document.getElementById("cpfs").innerHTML += "" + Math.floor(Math.random() * 9) + Math.floor(Math.random() * 9) + Math.floor(Math.random() * 9) + "." + Math.floor(Math.random() * 9) + Math.floor(Math.random() * 9) + Math.floor(Math.random() * 9) + "." + Math.floor(Math.random() * 9) + Math.floor(Math.random() * 9) + Math.floor(Math.random() * 9) + "-" + Math.floor(Math.random() * 9) + Math.floor(Math.random() * 9) + "\n"
         }
 
 }
